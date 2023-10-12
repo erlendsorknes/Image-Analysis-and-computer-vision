@@ -102,7 +102,7 @@ text(v3(1), v3(2), 'v3', 'FontSize', FNT_SZ, 'Color', 'b');
 %% Given the horizon we can rectify the image
 % for numerical stability it is important to scale the coefficient of the
 % horizon
-horizon = horizon./(horizon);
+horizon = horizon./norm(horizon);
 H = [eye(2),zeros(2,1); horizon(:)'];
 % we can check that H^-T* imLinfty is the line at infinity in its canonical
 % form:

@@ -200,7 +200,7 @@ d1_d2_ratio = dist_t1_tilde*(dist_v-dist_t2)/(dist_t2*(dist_v-dist_t1_tilde));
 
 %d2 = 1/d1_d2_ratio
 lenght1 = 122;
-lenght2 = lenght1/d1_d2_ratio;
+lenght2 = lenght1/d1_d2_ratio
 %%
 
 TXT_OFFSET = 20;
